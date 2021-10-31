@@ -64,6 +64,11 @@ class MainActivity : AppCompatActivity() {
     fun setValueText(array: MutableList<Int>){
         this.rgbText = "rgb(" + array[0].toString() + "," + array[1].toString() + "," + array[2].toString() + ");"
         this.fieldtext.text = this.rgbText;
+        if (rgbText == "rgb(0,0,0);"){
+            this.fieldtext.setTextColor(android.graphics.Color.rgb(255,255,255))
+        }else{
+            this.fieldtext.setTextColor(android.graphics.Color.rgb(0,0,0))
+        }
     }
 }
 

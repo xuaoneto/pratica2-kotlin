@@ -56,6 +56,7 @@
         app:layout_constraintVertical_bias="0.426"
         android:max="255"
         android:progress="0"
+        android:thumbTint="#00ff00"
         />
 
     <SeekBar
@@ -70,6 +71,7 @@
         app:layout_constraintVertical_bias="0.623"
         android:max="255"
         android:progress="0"
+        android:thumbTint="#0000ff"
         />
 
         <SeekBar
@@ -84,6 +86,7 @@
             app:layout_constraintVertical_bias="0.226"
             android:max="255"
             android:progress="0"
+            android:thumbTint="#ff0000"
             />
 
 
